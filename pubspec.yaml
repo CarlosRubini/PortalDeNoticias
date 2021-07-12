@@ -1,0 +1,42 @@
+name: projeto_radio
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^2.1.1
+  flutter_radio: ^0.1.8
+  http_interceptor: ^1.0.0
+  flutter_modular:
+  sqflite:
+
+dev_dependencies:
+  flutter_launcher_icons:
+  http:
+  json_serializable: ^3.3.0
+  build_runner:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo_supernova.png"
+
+flutter:
+  uses-material-design: true
+  assets:     
+    - assets/logo_supernova.png
+    - assets/fundo.jpg
+    - assets/comunicacao-eficaz.jpg
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Regular.ttf
+        - asset: fonts/Montserrat-Bold.ttf
+          weight: 700
